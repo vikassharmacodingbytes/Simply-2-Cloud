@@ -1,0 +1,59 @@
+/* Your converted CSS */
+.myAutocomplete {
+    width: 100%;
+  }
+  
+  @media (min-width: 768px) {
+    /* md:w-[400px] equivalent */
+    .myAutocomplete {
+      width: 400px;
+      font-size: 1.125rem; /* equivalent to md:text-lg */
+    }
+  }
+  
+  @media (min-width: 1024px) {
+    /* lg:w-[650px] equivalent */
+    .myAutocomplete {
+      width: 650px;
+    }
+  }
+  
+  /* text-base equivalent */
+  .myInput {
+    font-size: 1rem;
+  }
+  
+  /* rounded-md equivalent */
+  .myInput {
+    border-radius: 0.375rem;
+  }
+  
+  /* text-gray-500 equivalent */
+  .myInput {
+    color: #6B7280;
+  }
+  
+  /* outline-none equivalent */
+  .myInput {
+    outline: none;
+  }
+  
+  /* px-4 py-2 equivalent */
+  .myInput {
+    padding: 0.5rem;
+  }
+  
+  @media (min-width: 768px) {
+    /* md:py-3 md:px-5 equivalent */
+    .myInput {
+      padding: 0.75rem;
+    }
+  }
+  
+  @media (min-width: 768px) {
+    /* md:rounded-r-[0px] equivalent */
+    .myInput {
+      border-radius: 0;
+    }
+  }
+  

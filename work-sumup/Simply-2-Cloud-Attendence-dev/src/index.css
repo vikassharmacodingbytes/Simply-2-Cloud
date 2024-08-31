@@ -1,0 +1,23 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+.background-image-container {
+    background-image: url('./img/leaves.jpg');
+    background-size: cover;
+    background-position: center; 
+    width: 100vw;
+    height: 100vh;
+  }
+
+  ::-webkit-scrollbar{
+    width: 5px;
+  }
+  ::-webkit-scrollbar-track {
+    background-color: #f1f1f1;
+  }
+  
+  ::-webkit-scrollbar-thumb{
+    background-color: rgb(179, 179, 179);
+  }
+  
